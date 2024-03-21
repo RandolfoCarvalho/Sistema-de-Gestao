@@ -22,6 +22,18 @@ namespace SistemaDeGestão.Controllers
         public IActionResult List()
         {
             return Ok(_context.Produtos.ToList());
-        } 
+        }
+        public IActionResult Insere(Produto produto)
+        {
+            try
+            {
+                _context.Add(produto);
+                _context.SaveChanges();
+                return Ok(produto);
+            } catch (Exception e)
+            {
+                throw e.Message;
+            }
+        }
     }
 }

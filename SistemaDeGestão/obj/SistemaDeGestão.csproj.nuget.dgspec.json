@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\temp\\SistemaDeGestão\\SistemaDeGestão\\SistemaDeGestão.csproj": {}
+    "C:\\temp\\projetos\\Sistema-de-Gestao\\SistemaDeGestão\\SistemaDeGestão.csproj": {}
   },
   "projects": {
-    "D:\\temp\\SistemaDeGestão\\SistemaDeGestão\\SistemaDeGestão.csproj": {
+    "C:\\temp\\projetos\\Sistema-de-Gestao\\SistemaDeGestão\\SistemaDeGestão.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\temp\\SistemaDeGestão\\SistemaDeGestão\\SistemaDeGestão.csproj",
+        "projectUniqueName": "C:\\temp\\projetos\\Sistema-de-Gestao\\SistemaDeGestão\\SistemaDeGestão.csproj",
         "projectName": "SistemaDeGestão",
-        "projectPath": "D:\\temp\\SistemaDeGestão\\SistemaDeGestão\\SistemaDeGestão.csproj",
-        "packagesPath": "C:\\Users\\Luztek - Ezequiel\\.nuget\\packages\\",
-        "outputPath": "D:\\temp\\SistemaDeGestão\\SistemaDeGestão\\obj\\",
+        "projectPath": "C:\\temp\\projetos\\Sistema-de-Gestao\\SistemaDeGestão\\SistemaDeGestão.csproj",
+        "packagesPath": "C:\\Users\\rando\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\projetos\\Sistema-de-Gestao\\SistemaDeGestão\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Luztek - Ezequiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,22 +43,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -66,15 +54,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
