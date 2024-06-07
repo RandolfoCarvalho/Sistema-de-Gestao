@@ -1,39 +1,33 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
 
-
 namespace SistemaDeGestão.Controllers
 {
-
-    public class Produto : Controller
+    public class CategoriaController : Controller
     {
-        public readonly DataBaseContext _context;
-        public Produto(DataBaseContext context)
+        private readonly DataBaseContext _context;
+
+        public CategoriaController(DataBaseContext context)
         {
             _context = context;
         }
-
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult List()
-        {
-            return Ok(_context.Produtos.ToList());
-        }
-        public IActionResult Insere(Produto produto)
+        public IActionResult Post([FromBody] Categoria categoria)
         {
             try
             {
-                _context.Add(produto);
+                _context.Add(categoria);
                 _context.SaveChanges();
-                return Ok(produto);
+                return Ok(categoria);
             } catch (Exception e)
             {
                 throw new Exception(e.Message);
             }
+            
         }
     }
 }
