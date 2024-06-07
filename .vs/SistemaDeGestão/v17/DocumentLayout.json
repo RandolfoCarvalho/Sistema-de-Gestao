@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\Sistema-de-Gestao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\migrations\\20240307154104_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\migrations\\20240307154104_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\sistemadegest\u00E3o.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\sistemadegest\u00E3o.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\sistemadegest\u00E3o.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\sistemadegest\u00E3o.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:58:03.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:41:14.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\Produto.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\Produto.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\Produto.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\Produto.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wCAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SistemaDeGest\u00E3o",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T11:39:42.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SistemaDeGest\u00E3o.csproj",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T11:39:42.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\appsettings.json",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\appsettings.json",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T11:39:42.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240307154104_FirstMigration.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240307154104_FirstMigration.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240307154104_FirstMigration.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240307154104_FirstMigration.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Migrations\\20240307154104_FirstMigration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Program.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.843Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -32,7 +32,7 @@ namespace SistemaDeGestão.Controllers
                 return Ok(produto);
             } catch (Exception e)
             {
-                throw e.Message;
+                throw new Exception(e.Message);
             }
         }
     }
