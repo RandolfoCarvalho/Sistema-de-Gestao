@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Controllers;
 using SistemaDeGestão.Data;
+using SistemaDeGestão.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +13,8 @@ var connection = builder.Configuration["ConnectionStrings:DefaultConnection"];
 builder.Services.AddDbContext<DataBaseContext>(options => options.UseMySql(connection,
     new MySqlServerVersion(
         new Version(8, 0, 0))));
+
+//Injecao de dependencia
 
 var app = builder.Build();
 

@@ -7,7 +7,6 @@ namespace SistemaDeGestão.Controllers
     public class CategoriaController : Controller
     {
         private readonly DataBaseContext _context;
-
         public CategoriaController(DataBaseContext context)
         {
             _context = context;
@@ -16,18 +15,14 @@ namespace SistemaDeGestão.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> getAll()
+        {
+            var result = _context.Categorias.ToList();
+            return Ok(result);
+        }
         public IActionResult Post([FromBody] Categoria categoria)
         {
-            try
-            {
-                _context.Add(categoria);
-                _context.SaveChanges();
-                return Ok(categoria);
-            } catch (Exception e)
-            {
-                throw new Exception(e.Message);
-            }
-            
+                throw new Exception("Ainda nao implementou");
         }
     }
 }
