@@ -22,7 +22,17 @@ namespace SistemaDeGestão.Controllers
         }
         public IActionResult Post([FromBody] Categoria categoria)
         {
-                throw new Exception("Ainda nao implementou");
+            try
+            {
+                _context.Add(categoria);
+                _context.SaveChanges();
+                return Ok(categoria);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
+
     }
 }

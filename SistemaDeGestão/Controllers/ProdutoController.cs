@@ -22,7 +22,7 @@ namespace SistemaDeGestão.Controllers
         {
             return Ok(_context.Produtos.ToList());
         }
-        public IActionResult Post(ProdutoController produto)
+        public IActionResult Post([FromBody] Produto produto)
         {
             try
             {
@@ -31,7 +31,22 @@ namespace SistemaDeGestão.Controllers
                 return Ok(produto);
             } catch (Exception e)
             {
-                throw new Exception(e.Message);
+                throw new Exception("Erro ao criar produto" + e.Message);
+            }
+        }
+        public IActionResult Put([FromBody] Produto produto)
+        {
+            var current = _context.Produtos.FirstOrDefault(p => p.Id == produto.Id);
+            if (current == null) return BadRequest("Produto não encontrado");
+            try
+            {
+                _context.Entry(current).CurrentValues.SetValues(produto);
+                _context.SaveChanges();
+                return Ok(produto);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Não foi possivel atualizar o produto" + e.Message);
             }
         }
     }
