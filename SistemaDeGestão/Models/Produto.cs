@@ -10,8 +10,5 @@
 
         // Chave estrangeira para Categoria
         public int CategoriaId { get; set; }
-
-        // Propriedade de navegação para Categoria
-        public Categoria? Categoria { get; set; }
     }
 }

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Controllers;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 

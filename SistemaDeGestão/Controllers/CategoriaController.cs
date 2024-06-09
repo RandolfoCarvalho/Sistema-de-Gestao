@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
 
@@ -17,7 +18,8 @@ namespace SistemaDeGestão.Controllers
         }
         public async Task<IActionResult> getAll()
         {
-            var result = _context.Categorias.ToList();
+            var result = _context.Categorias.Include(c => c.Produtos)
+                    .ToList();
             return Ok(result);
         }
         public IActionResult Post([FromBody] Categoria categoria)
