@@ -49,5 +49,13 @@ namespace SistemaDeGestão.Controllers
                 throw new Exception("Não foi possivel atualizar o produto" + e.Message);
             }
         }
+        public IActionResult Delete(int id)
+        {
+            var result = _context.Produtos.FirstOrDefault(p => p.Id.Equals(id));
+            if (result == null) return BadRequest("Não foi possivel encontrar o produto especificao ");
+            _context.Produtos.Remove(result);
+            _context.SaveChanges();
+            return Ok(result);
+        }
     }
 }
