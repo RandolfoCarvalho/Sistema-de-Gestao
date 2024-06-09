@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Controllers;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
+using SistemaDeGestão.Services;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +17,7 @@ builder.Services.AddDbContext<DataBaseContext>(options => options.UseMySql(conne
         new Version(8, 0, 0))));
 
 //Injecao de dependencia
-
+builder.Services.AddScoped<MovimentacaoService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -8,13 +8,9 @@
 
   <ItemGroup>
     <Compile Remove="Repository\**" />
-    <Compile Remove="Services\**" />
     <Content Remove="Repository\**" />
-    <Content Remove="Services\**" />
     <EmbeddedResource Remove="Repository\**" />
-    <EmbeddedResource Remove="Services\**" />
     <None Remove="Repository\**" />
-    <None Remove="Services\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,10 +20,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

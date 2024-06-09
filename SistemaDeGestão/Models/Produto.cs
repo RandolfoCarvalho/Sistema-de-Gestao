@@ -7,7 +7,6 @@
         public string Descricao { get; set; }
         public double Preco { get; set; }
         public int QuantidadeEstoque { get; set; }
-
         // Chave estrangeira para Categoria
         public int CategoriaId { get; set; }
     }
