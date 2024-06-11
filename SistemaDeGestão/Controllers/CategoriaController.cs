@@ -2,60 +2,37 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
+using SistemaDeGestão.Services;
 
 namespace SistemaDeGestão.Controllers
 {
     public class CategoriaController : Controller
     {
-        private readonly DataBaseContext _context;
-        public CategoriaController(DataBaseContext context)
+        private readonly CategoriaService _categoriaService;
+        public CategoriaController(CategoriaService categoriaService)
         {
-            _context = context;
+            _categoriaService = categoriaService;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> FindAll()
         {
-            return View();
-        }
-        public async Task<IActionResult> getAll()
-        {
-            var result = _context.Categorias.Include(c => c.Produtos)
-                    .ToList();
+            var result = await _categoriaService.ListarCategorias();
             return Ok(result);
+
         }
-        public IActionResult Post([FromBody] Categoria categoria)
+        public async Task<IActionResult> Post([FromBody] Categoria categoria)
         {
-            try
-            {
-                _context.Add(categoria);
-                _context.SaveChanges();
-                return Ok(categoria);
-            }
-            catch (Exception e)
-            {
-                throw new Exception(e.Message);
-            }
+           _categoriaService.AdicionarCategoria(categoria);
+            return Ok("Categoria Criada com sucesso");
         }
         public IActionResult Put([FromBody] Categoria categoria)
         {
-            var current = _context.Categorias.FirstOrDefault(p => p.Id == categoria.Id);
-            if (current == null) return BadRequest("Não foi possivel localizar a categoria");
-            try
-            {
-                _context.Entry(current).CurrentValues.SetValues(categoria);
-                _context.SaveChanges();
-                return Ok(categoria);
-            } catch (Exception e)
-            {
-                throw new Exception("Erro ao atualizar categoria " + e.Message);
-            }
+            _categoriaService.AtualizarCategoria(categoria);
+            return Ok("Categoria Atualizada com sucesso");
         }
         public IActionResult Delete(int id)
         {
-            var result = _context.Categorias.FirstOrDefault(p => p.Id == id);
-            if (result == null) return BadRequest("Não foi possivel localizar a categoria");
-            _context.Categorias.Remove(result);
-            _context.SaveChanges();
-            return Ok(result);
+            _categoriaService.DeletarCategoria(id);
+            return Ok("Categoria deletada com sucesso");
         }
     }
 }

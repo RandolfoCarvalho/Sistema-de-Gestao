@@ -17,6 +17,7 @@ builder.Services.AddDbContext<DataBaseContext>(options => options.UseMySql(conne
         new Version(8, 0, 0))));
 
 //Injecao de dependencia
+builder.Services.AddScoped<CategoriaService>();
 builder.Services.AddScoped<MovimentacaoService>();
 var app = builder.Build();
 
