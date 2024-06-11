@@ -14,7 +14,7 @@ namespace SistemaDeGestão.Controllers
             _categoriaService = categoriaService;
         }
         public async Task<IActionResult> FindAll()
-        {
+        { 
             var result = await _categoriaService.ListarCategorias();
             return Ok(result);
 
