@@ -17,7 +17,6 @@ namespace SistemaDeGestão.Controllers
         { 
             var result = await _categoriaService.ListarCategorias();
             return Ok(result);
-
         }
         public async Task<IActionResult> Post([FromBody] Categoria categoria)
         {

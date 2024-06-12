@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
+using SistemaDeGestão.Services;
 
 
 namespace SistemaDeGestão.Controllers
@@ -9,53 +10,34 @@ namespace SistemaDeGestão.Controllers
 
     public class ProdutoController : Controller
     {
-        public readonly DataBaseContext _context;
-        public ProdutoController(DataBaseContext context)
+        public readonly ProdutoService _produtoService;
+        public ProdutoController(ProdutoService produtoService)
         {
-            _context = context;
+            _produtoService = produtoService;
         }
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult List()
+        public async Task<IActionResult> List()
         {
-            return Ok(_context.Produtos.ToList());
+            var result = await _produtoService.ListarProdutos();
+            return Ok(result);
         }
-        public IActionResult Post([FromBody] Produto produto)
+        public async Task<IActionResult> Post([FromBody] Produto produto)
         {
-            try
-            {
-                _context.Add(produto);
-                _context.SaveChanges();
-                return Ok(produto);
-            } catch (Exception e)
-            {
-                throw new Exception("Erro ao criar produto" + e.Message);
-            }
+            _produtoService.AdicionarProduto(produto);
+            return Ok("Produto adicionado com sucesso");
         }
         public IActionResult Put([FromBody] Produto produto)
         {
-            var current = _context.Produtos.FirstOrDefault(p => p.Id == produto.Id);
-            if (current == null) return BadRequest("Produto não encontrado");
-            try
-            {
-                _context.Entry(current).CurrentValues.SetValues(produto);
-                _context.SaveChanges();
-                return Ok(produto);
-            }
-            catch (Exception e)
-            {
-                throw new Exception("Não foi possivel atualizar o produto" + e.Message);
-            }
+           _produtoService.AtualizarProduto(produto);
+            return Ok("Produto atualizado com sucesso");
         }
         public IActionResult Delete(int id)
         {
-            var result = _context.Produtos.FirstOrDefault(p => p.Id.Equals(id));
-            if (result == null) return BadRequest("Não foi possivel encontrar o produto especificao ");
-            _context.Produtos.Remove(result);
-            _context.SaveChanges();
-            return Ok(result);
+            _produtoService.DeletarProduto(id);
+            return Ok("Produto deletado com sucesso");
         }
     }
 }
