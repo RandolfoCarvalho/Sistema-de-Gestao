@@ -41,7 +41,7 @@ namespace SistemaDeGestão.Services
             }
             catch (Exception e)
             {
-                throw new Exception("Erro ao tentar inicializar quantidade de produto");
+                throw new Exception("Erro ao tentar inicializar quantidade de produto" + e.Message);
             }
         }
     }

@@ -8,7 +8,7 @@ namespace SistemaDeGestão.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public string Tipo { get; set; }
-        public DateTime DataDeCriação { get; set; }
+        //public string Tipo { get; set; }
+        //public DateTime DataDeCriação { get; set; }
     }
 }
