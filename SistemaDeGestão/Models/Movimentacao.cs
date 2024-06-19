@@ -1,5 +1,8 @@
-﻿namespace SistemaDeGestão.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SistemaDeGestão.Models
 {
+    [Table("Movimentacoes")]
     public class Movimentacao
     {
         public int Id { get; set; }

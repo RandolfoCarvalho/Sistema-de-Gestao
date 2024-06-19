@@ -24,7 +24,7 @@ namespace SistemaDeGestão.Controllers
             var result = await _produtoService.ListarProdutos();
             return Ok(result);
         }
-        public async Task<IActionResult> Post([FromBody] Produto produto)
+        public IActionResult Post([FromBody] Produto produto)
         {
             _produtoService.AdicionarProduto(produto);
             return Ok("Produto adicionado com sucesso");

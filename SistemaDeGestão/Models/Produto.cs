@@ -9,5 +9,6 @@
         public int QuantidadeEstoque { get; set; }
         // Chave estrangeira para Categoria
         public int CategoriaId { get; set; }
+        public int EstoqueId { get ; set; }
     }
 }

@@ -15,7 +15,7 @@ namespace SistemaDeGestão.Services
 
         public async Task<List<Categoria>> ListarCategorias()
         {
-            return await _context.Categorias.ToListAsync();
+            return await _context.Categorias.Include(p => p.Produtos).ToListAsync();
         }
         public async void AdicionarCategoria(Categoria categoria)
         {

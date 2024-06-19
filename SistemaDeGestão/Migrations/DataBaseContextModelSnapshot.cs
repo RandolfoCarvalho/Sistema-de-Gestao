@@ -44,8 +44,9 @@ namespace SistemaDeGestão.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("ProdutoId")
-                        .HasColumnType("int");
+                    b.Property<string>("Localizacao")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
@@ -96,6 +97,9 @@ namespace SistemaDeGestão.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<int>("EstoqueId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -109,6 +113,8 @@ namespace SistemaDeGestão.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoriaId");
+
+                    b.HasIndex("EstoqueId");
 
                     b.ToTable("Produtos");
                 });
@@ -143,9 +149,20 @@ namespace SistemaDeGestão.Migrations
                         .HasForeignKey("CategoriaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("SistemaDeGestão.Models.Estoque", null)
+                        .WithMany("Produtos")
+                        .HasForeignKey("EstoqueId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.Categoria", b =>
+                {
+                    b.Navigation("Produtos");
+                });
+
+            modelBuilder.Entity("SistemaDeGestão.Models.Estoque", b =>
                 {
                     b.Navigation("Produtos");
                 });

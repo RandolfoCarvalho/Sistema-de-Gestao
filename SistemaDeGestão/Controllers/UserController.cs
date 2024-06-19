@@ -19,7 +19,6 @@ namespace SistemaDeGestão.Controllers
         }
         public IActionResult criarUser([FromBody] User user)
         {
-            
         }
         public IActionResult Autenticar([FromBody] User user)
         {
