@@ -20,6 +20,7 @@ builder.Services.AddDbContext<DataBaseContext>(options => options.UseMySql(conne
 builder.Services.AddScoped<CategoriaService>();
 builder.Services.AddScoped<MovimentacaoService>();
 builder.Services.AddScoped<ProdutoService>();
+builder.Services.AddScoped<EstoqueService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

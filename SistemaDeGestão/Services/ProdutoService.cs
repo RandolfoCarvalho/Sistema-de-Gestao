@@ -7,11 +7,12 @@ namespace SistemaDeGestão.Services
     public class ProdutoService
     {
         private readonly DataBaseContext _context;
-        public ProdutoService(DataBaseContext context)
+        private readonly EstoqueService _estoqueService;
+        public ProdutoService(DataBaseContext context, EstoqueService estoqueService)
         {
-            {
-                _context = context;
-            }
+
+            _context = context;
+            _estoqueService = estoqueService;
         }
         public async Task<List<Produto>> ListarProdutos()
         {
@@ -23,6 +24,7 @@ namespace SistemaDeGestão.Services
             {
                 _context.Produtos.Add(produto);
                 _context.SaveChanges();
+                _estoqueService.AtualizarQuantidade(produto);
 
             } catch (Exception e)
             {
@@ -32,6 +34,7 @@ namespace SistemaDeGestão.Services
         public void AtualizarProduto(Produto produto)
         {
             var current = _context.Produtos.FirstOrDefault(p => p.Id == produto.Id);
+            
             try
             {
                 _context.Entry(current).CurrentValues.SetValues(produto);
