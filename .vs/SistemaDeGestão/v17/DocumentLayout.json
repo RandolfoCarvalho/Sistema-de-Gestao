@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\temp\\Sistema-de-Gestao\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\services\\movimentacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\services\\movimentacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\estoquecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\movimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\movimentacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\movimentacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,15 +114,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Program.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovimentacaoService.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:24:26.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\User.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\User.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:41:54.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:33:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T01:29:13.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:28:54.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:53:15.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EstoqueService.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\EstoqueService.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\EstoqueService.cs",
@@ -130,25 +228,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\EstoqueService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T02:48:10.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T02:48:10.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:33:35.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DataBaseContext.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
@@ -157,58 +241,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T11:39:42.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T23:28:54.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutoService.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T01:53:15.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovimentacaoService.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:24:26.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Program.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.843Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -224,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EstoqueController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\EstoqueController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\EstoqueController.cs",
@@ -236,19 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\User.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\User.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\User.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T02:41:54.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Movimentacao.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Movimentacao.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Movimentacao.cs",
@@ -260,19 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Estoque.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Estoque.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Estoque.cs",
@@ -284,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Categoria.cs",
@@ -296,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
@@ -320,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20240619020859_MigracaoDeCorrecaoMovimentacoes.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240619020859_MigracaoDeCorrecaoMovimentacoes.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240619020859_MigracaoDeCorrecaoMovimentacoes.cs",
@@ -332,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MovimentacaoController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\MovimentacaoController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\MovimentacaoController.cs",
@@ -341,18 +349,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T16:52:28.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T01:29:13.794Z"
             },
             {
               "$type": "Document",
@@ -442,6 +438,10 @@
           "DockedWidth": 192,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
