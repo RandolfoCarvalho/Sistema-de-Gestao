@@ -16,6 +16,23 @@ namespace SistemaDeGestão.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<ItemPedido> ItensPedido { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Pedido>()
+                .HasMany(p => p.Itens)
+                .WithOne()
+                .HasForeignKey(ip => ip.PedidoId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<ItemPedido>()
+                .HasMany(ip => ip.Adicionais)
+                .WithOne()
+                .HasForeignKey(a => a.ItemPedidoId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            base.OnModelCreating(modelBuilder);
+        }
+
 
     }
 }

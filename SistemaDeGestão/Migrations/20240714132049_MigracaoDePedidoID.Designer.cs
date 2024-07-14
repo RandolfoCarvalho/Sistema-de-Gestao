@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaDeGestão.Data;
 
@@ -10,9 +11,11 @@ using SistemaDeGestão.Data;
 namespace SistemaDeGestão.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    partial class DataBaseContextModelSnapshot : ModelSnapshot
+    [Migration("20240714132049_MigracaoDePedidoID")]
+    partial class MigracaoDePedidoID
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,7 +28,7 @@ namespace SistemaDeGestão.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("ItemPedidoId")
+                    b.Property<int?>("ItemPedidoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -214,9 +217,7 @@ namespace SistemaDeGestão.Migrations
                 {
                     b.HasOne("SistemaDeGestão.Models.ItemPedido", null)
                         .WithMany("Adicionais")
-                        .HasForeignKey("ItemPedidoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ItemPedidoId");
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.ItemPedido", b =>
