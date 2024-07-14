@@ -52,5 +52,11 @@ namespace SistemaDeGestão.Services
                 throw new Exception("Erro ao deletar categoria" + e.Message);
             }
         }
+        public string ObterNomeCategoriaPorId(int id)
+        {
+            var categoria = _context.Categorias.FirstOrDefault(p => p.Id == id); // Implemente esse método no seu serviço
+            return categoria?.Nome ?? "Categoria Desconhecida";
+        }
+
     }
 }

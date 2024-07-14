@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\temp\Sistema-de-Gestao\SistemaDeGestão
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/temp/Sistema-de-Gestao/SistemaDeGestão/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/temp/Sistema-de-Gestao/SistemaDeGestão/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/temp/Sistema-de-Gestao/SistemaDeGestão/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/temp/Sistema-de-Gestao/SistemaDeGestão/Views/Produto/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/temp/Sistema-de-Gestao/SistemaDeGestão/Views/Shared/_ValidationScriptsPartial.cshtml]

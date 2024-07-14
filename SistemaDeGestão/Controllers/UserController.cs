@@ -13,10 +13,6 @@ namespace SistemaDeGestão.Controllers
         {
             _context = context;
         }
-        /* public UserController(DataBaseContext context)
-        {
-            _context = context;
-        } */
         public IActionResult list()
         {
            return Ok(_context.Users.ToList());

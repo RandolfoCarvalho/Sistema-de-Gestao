@@ -15,6 +15,8 @@ namespace SistemaDeGestão.Data
         public DbSet<Estoque> Estoques { get; set; }
         public DbSet<Movimentacao> Movimentacoes { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<ItemPedido> ItensPedido { get; set; }
 
     }
 }

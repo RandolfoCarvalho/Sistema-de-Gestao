@@ -15,14 +15,10 @@ namespace SistemaDeGestão.Controllers
         {
             _produtoService = produtoService;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
-        public async Task<IActionResult> List()
-        {
-            var result = await _produtoService.ListarProdutos();
-            return Ok(result);
+            List<Produto> produtos = await _produtoService.ListarProdutos();
+            return View(produtos);
         }
         public IActionResult Post([FromBody] Produto produto)
         {

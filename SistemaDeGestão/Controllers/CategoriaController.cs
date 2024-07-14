@@ -15,8 +15,8 @@ namespace SistemaDeGestão.Controllers
         }
         public async Task<IActionResult> FindAll()
         { 
-            var result = await _categoriaService.ListarCategorias();
-            return Ok(result);
+            List<Categoria> categorias = await _categoriaService.ListarCategorias();
+            return Ok(categorias);
         }
         public async Task<IActionResult> Post([FromBody] Categoria categoria)
         {
