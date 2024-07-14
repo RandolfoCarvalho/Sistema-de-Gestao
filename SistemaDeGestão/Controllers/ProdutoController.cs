@@ -40,5 +40,15 @@ namespace SistemaDeGestão.Controllers
             _produtoService.DeletarProduto(id);
             return Ok("Produto deletado com sucesso");
         }
+        public IActionResult Detalhes(int id)
+        {
+            var produto = _produtoService.ObterProdutoPorId(id);
+            if (produto == null)
+            {
+                return NotFound();
+            }
+
+            return View(produto);
+        }
     }
 }

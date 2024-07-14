@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
 
@@ -52,6 +53,10 @@ namespace SistemaDeGestão.Services
             {
                 throw new Exception("Não foi possivel deletar o produto " + e.Message);
             }
+        }
+        public Produto ObterProdutoPorId(int id)
+        {
+            return _context.Produtos.FirstOrDefault(p => p.Id == id);
         }
     }
 }
