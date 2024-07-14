@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaDeGestão.Data;
 
@@ -10,9 +11,11 @@ using SistemaDeGestão.Data;
 namespace SistemaDeGestão.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    partial class DataBaseContextModelSnapshot : ModelSnapshot
+    [Migration("20240714125820_MigracaoDeModificacaoDeItemPedido")]
+    partial class MigracaoDeModificacaoDeItemPedido
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -82,6 +85,8 @@ namespace SistemaDeGestão.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("PedidoId");
+
+                    b.HasIndex("ProdutoId");
 
                     b.ToTable("ItensPedido");
                 });
@@ -222,6 +227,14 @@ namespace SistemaDeGestão.Migrations
                     b.HasOne("SistemaDeGestão.Models.Pedido", null)
                         .WithMany("Itens")
                         .HasForeignKey("PedidoId");
+
+                    b.HasOne("SistemaDeGestão.Models.Produto", "produto")
+                        .WithMany()
+                        .HasForeignKey("ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("produto");
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.ProductCategory", b =>

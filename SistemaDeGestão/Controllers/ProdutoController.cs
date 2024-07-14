@@ -20,6 +20,11 @@ namespace SistemaDeGestão.Controllers
             List<Produto> produtos = await _produtoService.ListarProdutos();
             return View(produtos);
         }
+        public async Task<IActionResult> list()
+        {
+            List<Produto> produtos = await _produtoService.ListarProdutos();
+            return Ok(produtos);
+        }
         public IActionResult Post([FromBody] Produto produto)
         {
             _produtoService.AdicionarProduto(produto);

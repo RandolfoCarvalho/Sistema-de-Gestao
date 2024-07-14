@@ -3,7 +3,7 @@
 @model List<SistemaDeGestão.Models.Produto>
 @{
     // Agrupando os produtos por CategoriaId
-    var produtosAgrupadosPorCategoriaId = Model.GroupBy(p => p.CategoriaId);
+    var produtosAgrupadosPorCategoriaId = Model.GroupBy(p => p.Id);
 }
 <!DOCTYPE html>
 <html lang="en">

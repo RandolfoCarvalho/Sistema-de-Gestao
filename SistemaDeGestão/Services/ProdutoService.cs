@@ -7,12 +7,10 @@ namespace SistemaDeGestão.Services
     public class ProdutoService
     {
         private readonly DataBaseContext _context;
-        private readonly EstoqueService _estoqueService;
-        public ProdutoService(DataBaseContext context, EstoqueService estoqueService)
+        public ProdutoService(DataBaseContext context)
         {
 
             _context = context;
-            _estoqueService = estoqueService;
         }
         public async Task<List<Produto>> ListarProdutos()
         {
@@ -24,7 +22,6 @@ namespace SistemaDeGestão.Services
             {
                 _context.Produtos.Add(produto);
                 _context.SaveChanges();
-                _estoqueService.AtualizarQuantidade(produto);
 
             } catch (Exception e)
             {
