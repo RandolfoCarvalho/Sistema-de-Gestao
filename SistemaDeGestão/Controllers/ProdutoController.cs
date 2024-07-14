@@ -11,9 +11,11 @@ namespace SistemaDeGestão.Controllers
     public class ProdutoController : Controller
     {
         public readonly ProdutoService _produtoService;
-        public ProdutoController(ProdutoService produtoService)
+        public readonly DataBaseContext _context;
+        public ProdutoController(DataBaseContext context, ProdutoService produtoService)
         {
             _produtoService = produtoService;
+            _context = context;
         }
         public async Task<IActionResult> Index()
         {
