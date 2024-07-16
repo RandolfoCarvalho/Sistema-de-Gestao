@@ -39,6 +39,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Models\ProductCategory.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Models\ProductCategory.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="bootstrap" Version="5.3.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2">
