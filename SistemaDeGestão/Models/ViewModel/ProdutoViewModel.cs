@@ -1,11 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System.ComponentModel.DataAnnotations;
 
 namespace SistemaDeGestão.Models.ViewModel
 {
     public class ProdutoViewModel
     {
         public int CategoriaId { get; set; }
-
+        //public IEnumerable<SelectListItem> Categorias { get; set; }
         [Required(ErrorMessage = "O nome do produto é obrigatório.")]
         public string Nome { get; set; }
 
