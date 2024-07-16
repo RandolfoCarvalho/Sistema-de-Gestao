@@ -20,6 +20,9 @@ builder.Services.AddDbContext<DataBaseContext>(options => options.UseMySql(conne
 builder.Services.AddScoped<CategoriaService>();
 builder.Services.AddScoped<MovimentacaoService>();
 builder.Services.AddScoped<ProdutoService>();
+builder.Services.AddScoped<ItemPedidoService>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddSession();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,7 +39,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Produto}/{action=Index}/{id?}");
