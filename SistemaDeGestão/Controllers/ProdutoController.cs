@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
@@ -13,10 +14,12 @@ namespace SistemaDeGestão.Controllers
     {
         public readonly ProdutoService _produtoService;
         public readonly DataBaseContext _context;
-        public ProdutoController(DataBaseContext context, ProdutoService produtoService)
+        public readonly CategoriaService _categoriaService;
+        public ProdutoController(DataBaseContext context, ProdutoService produtoService, CategoriaService categoriaService)
         {
             _produtoService = produtoService;
             _context = context;
+            _categoriaService = categoriaService;
         }
         public async Task<IActionResult> Index()
         {
@@ -31,8 +34,15 @@ namespace SistemaDeGestão.Controllers
         [HttpGet]
         public IActionResult CriarProduto()
         {
-            var viewModel = new ProdutoViewModel();
-            return View(viewModel);
+            var model = new ProdutoViewModel
+            {
+                Categorias = _context.Categorias.Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),  // O valor será o nome da categoria
+                    Text = c.Nome    // O texto exibido será o nome da categoria
+                }).ToList()
+            };
+            return View(model);
         }
         [HttpPost]
         [ValidateAntiForgeryToken] // Para proteção CSRF
@@ -42,16 +52,21 @@ namespace SistemaDeGestão.Controllers
             {
                 var novoProduto = new Produto
                 {
+                    CategoriaId = viewModel.CategoriaId,
                     Nome = viewModel.Nome,
                     Descricao = viewModel.Descricao,
                     Preco = viewModel.Preco,
                     ProductImage = viewModel.ProductImage,
-                    CategoriaId = viewModel.CategoriaId,
                     QuantidadeEstoque = viewModel.QuantidadeEstoque
                 };
                 _produtoService.AdicionarProduto(novoProduto);
                 return RedirectToAction("Index", "Produto");
             }
+            viewModel.Categorias = _context.Categorias.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),  // O valor será o ID da categoria
+                Text = c.Nome             // O texto exibido será o nome da categoria
+            }).ToList();
             return View(viewModel);
         }
         public IActionResult Post([FromBody] Produto produto)

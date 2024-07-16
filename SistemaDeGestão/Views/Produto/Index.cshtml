@@ -47,7 +47,12 @@
                         <div class="col mb-5">
                             <div class="card h-100">
                                 <!-- Imagem do produto -->
-                                <img class="placeholder-image" alt="Imagem do Produto" />
+                                <div>
+                                    <a href="@Url.Action("Detalhes", "Produto", new { id = produto.Id })">
+                                        <img src="URL_DA_IMAGEM" alt="Imagem do Produto" class="placeholder-image" />
+                                    </a>
+                                </div>
+
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Nome do produto -->
@@ -64,7 +69,7 @@
                                     </div>
                                 </div>
                                 <!-- Link para detalhes do produto -->
-                                <a href="@Url.Action("Detalhes", "Produto", new { id = produto.Id })" class="stretched-link"></a>
+                                
                             </div>
                         </div>
                     }

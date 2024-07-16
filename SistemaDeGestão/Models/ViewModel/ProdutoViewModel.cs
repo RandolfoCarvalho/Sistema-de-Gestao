@@ -6,10 +6,9 @@ namespace SistemaDeGestão.Models.ViewModel
     public class ProdutoViewModel
     {
         public int CategoriaId { get; set; }
-        //public IEnumerable<SelectListItem> Categorias { get; set; }
+        public IEnumerable<SelectListItem>? Categorias { get; set; }
         [Required(ErrorMessage = "O nome do produto é obrigatório.")]
         public string Nome { get; set; }
-
         public string Descricao { get; set; }
 
         [Required(ErrorMessage = "O preço do produto é obrigatório.")]
