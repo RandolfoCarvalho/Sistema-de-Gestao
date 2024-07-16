@@ -12,7 +12,6 @@ namespace SistemaDeGestão.Services
         {
             _context = context;
         }
-
         public async Task<List<Categoria>> ListarCategorias()
         {
             return await _context.Categorias.Include(p => p.Produtos).ToListAsync();
@@ -57,6 +56,5 @@ namespace SistemaDeGestão.Services
             var categoria = _context.Categorias.FirstOrDefault(p => p.Id == id); // Implemente esse método no seu serviço
             return categoria?.Nome ?? "Categoria Desconhecida";
         }
-
     }
 }
