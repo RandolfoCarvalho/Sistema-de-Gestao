@@ -82,7 +82,7 @@ namespace SistemaDeGestão.Controllers
         public IActionResult Delete(int id)
         {
             _produtoService.DeletarProduto(id);
-            return Ok("Produto deletado com sucesso");
+            return RedirectToAction("Index");
         }
         public IActionResult Detalhes(int id)
         {

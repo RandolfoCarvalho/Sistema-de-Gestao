@@ -37,16 +37,14 @@
         <div class="container px-4 px-lg-5 mt-5">
             @foreach (var grupo in produtosAgrupadosPorCategoriaId)
             {
-                // Aqui você pode buscar o nome da categoria usando o CategoriaId
                 var nomeCategoria = categoriaService.ObterNomeCategoriaPorId(grupo.Key);
 
-                <h2>@nomeCategoria</h2> <!-- Exibe o nome da categoria -->
+                <h2>@nomeCategoria</h2>
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     @foreach (var produto in grupo)
                     {
                         <div class="col mb-5">
                             <div class="card h-100">
-                                <!-- Imagem do produto -->
                                 <div>
                                     <a href="@Url.Action("Detalhes", "Produto", new { id = produto.Id })">
                                         <img src="URL_DA_IMAGEM" alt="Imagem do Produto" class="placeholder-image" />
@@ -55,21 +53,25 @@
 
                                 <div class="card-body p-4">
                                     <div class="text-center">
-                                        <!-- Nome do produto -->
                                         <h5 class="fw-bolder">@produto.Nome</h5>
-                                        <!-- Preço do produto -->
-                                        $@produto.Preco.ToString("0.00") <!-- Formatação do preço -->
+                                        $@produto.Preco.ToString("0.00")
                                     </div>
                                 </div>
-                                <!-- Ações do produto (por exemplo, adicionar ao carrinho) -->
-                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center">
-                                        <!-- Link para adicionar ao carrinho ou outra ação -->
-                                        <a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a>
+
+                                <div class="card-footer p-7 pt-0 border-top-0 bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <!-- Botão de Excluir -->
+                                            <form asp-action="Delete" asp-route-id="@produto.Id" method="post">
+                                                <button type="submit" class="btn btn-danger btn-sm">Excluir</button>
+                                            </form>
+                                        </div>
+                                        <div>
+                                            <!-- Botão de Editar -->
+                                            <a href="@Url.Action("Put", "Produto", new { id = produto.Id })" class="btn btn-primary btn-sm" style="margin-left: 5px;">Editar</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <!-- Link para detalhes do produto -->
-                                
                             </div>
                         </div>
                     }
@@ -77,6 +79,7 @@
             }
         </div>
     </section>
+
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>

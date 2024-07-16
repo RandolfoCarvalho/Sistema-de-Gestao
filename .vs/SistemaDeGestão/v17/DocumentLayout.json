@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\temp\\Sistema-de-Gestao\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\produto\\criarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\views\\produto\\criarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\sistemadegest\u00E3o.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\sistemadegest\u00E3o.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\produto\\criarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\views\\produto\\criarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\produto\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -73,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -190,50 +190,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBkAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\Index.cshtml",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Index.cshtml",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAuAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwEMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-14T03:29:42.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T23:28:54.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Program.cs",
@@ -246,20 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoService.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIAwwA8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T01:53:15.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Categoria.cs",
@@ -272,19 +233,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Detalhes.cshtml",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T14:15:34.646Z"
+              "WhenOpened": "2024-07-14T14:15:34.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ItemPedido.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ItemPedido.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ItemPedido.cs",
@@ -297,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "CriarProduto.cshtml",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\CriarProduto.cshtml",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\CriarProduto.cshtml",
@@ -305,11 +267,64 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\CriarProduto.cshtml",
               "ViewState": "AQIAABAAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T11:36:44.83Z"
+              "WhenOpened": "2024-07-16T11:36:44.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T03:39:38.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:39:42.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIAwwA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:53:15.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:28:54.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
@@ -317,11 +332,12 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.636Z"
+              "WhenOpened": "2024-06-07T11:39:42.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "SistemaDeGest\u00E3o.csproj",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
@@ -334,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ProdutoViewModel.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
@@ -342,11 +358,12 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T11:34:32.547Z"
+              "WhenOpened": "2024-07-16T11:34:32.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "imagem.jpg",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\imagem.jpg",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\imagem.jpg",
@@ -357,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Privacy.cshtml",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\Privacy.cshtml",
@@ -365,11 +382,12 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T03:51:31.92Z"
+              "WhenOpened": "2024-07-14T03:51:31.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
@@ -377,11 +395,12 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T01:29:13.794Z"
+              "WhenOpened": "2024-06-13T01:29:13.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MovimentacaoService.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
@@ -389,11 +408,12 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:24:26.066Z"
+              "WhenOpened": "2024-06-09T17:24:26.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ItemPedidoService.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ItemPedidoService.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ItemPedidoService.cs",
@@ -401,11 +421,12 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\ItemPedidoService.cs",
               "ViewState": "AQIAAFoAAAAAAAAAAAAmwGEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T23:49:19.573Z"
+              "WhenOpened": "2024-07-15T23:49:19.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\PedidoController.cs",
@@ -413,19 +434,8 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\PedidoController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T02:55:03.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T03:39:38.361Z"
+              "WhenOpened": "2024-07-14T02:55:03.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -435,9 +445,10 @@
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:33:35.243Z"
+              "WhenOpened": "2024-06-07T12:33:35.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -449,7 +460,8 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ProductCategory.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-07-14T12:29:07.362Z"
+              "WhenOpened": "2024-07-14T12:29:07.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -461,7 +473,8 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Migrations\\20240716014500_AddCategoriaIdAProdutoModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T01:45:01.205Z"
+              "WhenOpened": "2024-07-16T01:45:01.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -473,7 +486,8 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Migrations\\20240714142520_MigracaoDeRetiradaDeCategoriesEmProdutos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T14:25:20.978Z"
+              "WhenOpened": "2024-07-14T14:25:20.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -485,7 +499,8 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\ItemPedidoController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T02:56:55.35Z"
+              "WhenOpened": "2024-07-14T02:56:55.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -733,8 +748,7 @@
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T11:39:42.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.648Z"
             }
           ]
         },
