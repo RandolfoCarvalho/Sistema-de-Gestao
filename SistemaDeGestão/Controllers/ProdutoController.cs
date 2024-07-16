@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaDeGestão.Data;
 using SistemaDeGestão.Models;
+using SistemaDeGestão.Models.ViewModel;
 using SistemaDeGestão.Services;
 
 
@@ -26,6 +27,32 @@ namespace SistemaDeGestão.Controllers
         {
             List<Produto> produtos = await _produtoService.ListarProdutos();
             return Ok(produtos);
+        }
+        [HttpGet]
+        public IActionResult CriarProduto()
+        {
+            var viewModel = new ProdutoViewModel();
+            return View(viewModel);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken] // Para proteção CSRF
+        public IActionResult CriarProduto(ProdutoViewModel viewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var novoProduto = new Produto
+                {
+                    Nome = viewModel.Nome,
+                    Descricao = viewModel.Descricao,
+                    Preco = viewModel.Preco,
+                    ProductImage = viewModel.ProductImage,
+                    CategoriaId = viewModel.CategoriaId,
+                    QuantidadeEstoque = viewModel.QuantidadeEstoque
+                };
+                _produtoService.AdicionarProduto(novoProduto);
+                return RedirectToAction("Index", "Produto");
+            }
+            return View(viewModel);
         }
         public IActionResult Post([FromBody] Produto produto)
         {
