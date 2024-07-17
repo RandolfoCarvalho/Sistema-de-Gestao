@@ -20,6 +20,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .produto-item {
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin: 5px;
+            cursor: move; /* Cursor que indica que o elemento pode ser arrastado */
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+        }
+
+        .dropzone {
+            border: 2px dashed #ccc;
+            padding: 10px;
+            min-height: 200px;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation-->
@@ -41,10 +60,10 @@
                 var nomeCategoria = categoriaService.ObterNomeCategoriaPorId(grupo.Key);
 
                 <h2>@nomeCategoria</h2>
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div id ="dropzone" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     @foreach (var produto in grupo)
                     {
-                        <div class="col mb-5">
+                        <div data-id="@produto.Id"  class=" produto-item resize-drag col mb-5 .resize-drag">
                             <div class="card h-100">
                                 <div>
                                     <a href="@Url.Action("Detalhes", "Produto", new { id = produto.Id })">
@@ -90,12 +109,102 @@
     <script src="js/scripts.js"></script>
     <!-- Container para React -->
     <div id="root"></div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Carregando o arquivo JavaScript do React -->
-    <script src="~/my-react-app/build/static/js/main.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
 </body>
-</html>
 
+</html>
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Carregar posições salvas
+            loadPositions();
+        });
+
+        var x = 0;
+        var y = 0;
+
+        interact('.resize-drag')
+            .draggable({
+                modifiers: [
+                    interact.modifiers.snap({
+                        targets: [
+                            interact.snappers.grid({ x: 5, y: 5 })
+                        ],
+                        range: Infinity,
+                        relativePoints: [{ x: 0, y: 0 }]
+                    }),
+                    interact.modifiers.restrict({
+                        restriction: 'parent',
+                        elementRect: { top: 0, left: 0, bottom: 1, right: 1 },
+                        endOnly: true
+                    })
+                ],
+                inertia: true
+            })
+            .on('dragmove', function (event) {
+                var target = event.target;
+                x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+                y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+                target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+                target.setAttribute('data-x', x);
+                target.setAttribute('data-y', y);
+
+                // Salvar posição
+                savePosition(target);
+            });
+
+        function savePosition(element) {
+            var id = element.getAttribute('data-id');
+            var positions = JSON.parse(localStorage.getItem('positions')) || {};
+            positions[id] = {
+                x: element.getAttribute('data-x'),
+                y: element.getAttribute('data-y'),
+                width: element.style.width,
+                height: element.style.height
+            };
+            localStorage.setItem('positions', JSON.stringify(positions));
+
+            // Adicione código para salvar a posição no servidor aqui, se necessário
+            // fetch('/savePosition', { method: 'POST', body: JSON.stringify({ id: id, x: x, y: y, width: width, height: height }) });
+        }
+
+        function loadPositions() {
+            var positions = JSON.parse(localStorage.getItem('positions')) || {};
+            document.querySelectorAll('.resize-drag').forEach(function (element) {
+                var id = element.getAttribute('data-id');
+                if (positions[id]) {
+                    var pos = positions[id];
+                    element.style.transform = 'translate(' + pos.x + 'px, ' + pos.y + 'px)';
+                    element.style.width = pos.width;
+                    element.style.height = pos.height;
+                    element.setAttribute('data-x', pos.x);
+                    element.setAttribute('data-y', pos.y);
+                }
+            });
+
+            // Adicione código para carregar a posição do servidor aqui, se necessário
+            // fetch('/getPositions')
+            //     .then(response => response.json())
+            //     .then(data => {
+            //         data.forEach(pos => {
+            //             var element = document.querySelector('[data-id="' + pos.id + '"]');
+            //             element.style.transform = 'translate(' + pos.x + 'px, ' + pos.y + 'px)';
+            //             element.style.width = pos.width;
+            //             element.style.height = pos.height;
+            //             element.setAttribute('data-x', pos.x);
+            //             element.setAttribute('data-y', pos.y);
+            //         });
+            //     });
+        }
+
+    </script>
+}
 <style>
     .placeholder-image {
         background-color: #f0f0f0; /* Cor de fundo cinza claro */
