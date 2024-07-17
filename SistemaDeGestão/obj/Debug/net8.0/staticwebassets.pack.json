@@ -181,6 +181,14 @@
       "PackagePath": "staticwebassets\\SistemaDeGestão.bundle.scp.css"
     },
     {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\css\\Produto\\criarProduto.css",
+      "PackagePath": "staticwebassets\\css\\Produto\\criarProduto.css"
+    },
+    {
       "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -191,6 +199,14 @@
     {
       "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\criarProduto.js",
+      "PackagePath": "staticwebassets\\js\\criarProduto.js"
     },
     {
       "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\scripts.js",
@@ -427,6 +443,54 @@
     {
       "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\css\\main.f855e6bc.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.f855e6bc.css"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\css\\main.f855e6bc.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.f855e6bc.css.map"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\js\\453.ad6eb26e.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\453.ad6eb26e.chunk.js"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\js\\453.ad6eb26e.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\453.ad6eb26e.chunk.js.map"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\js\\main.4adac9c0.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.4adac9c0.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\js\\main.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.js"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\js\\main.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.js.map"
+    },
+    {
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SistemaDeGestão.Microsoft.AspNetCore.StaticWebAssets.props",

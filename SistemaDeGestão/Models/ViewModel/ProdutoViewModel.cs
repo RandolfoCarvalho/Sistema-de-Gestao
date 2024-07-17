@@ -20,5 +20,10 @@ namespace SistemaDeGestão.Models.ViewModel
         [Required(ErrorMessage = "A quantidade em estoque é obrigatória.")]
         [Range(1, int.MaxValue, ErrorMessage = "A quantidade em estoque deve ser maior que zero.")]
         public int QuantidadeEstoque { get; set; }
+
+
+        //campos para categoria
+        public string? NewCategoryName { get; set; }
+        public string? NewCategoryDescription { get; set; }
     }
 }

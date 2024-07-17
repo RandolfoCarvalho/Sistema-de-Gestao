@@ -207,3 +207,5 @@ C:\temp\Sistema-de-Gestao\SistemaDeGestão\obj\Debug\net8.0\scopedcss\projectbun
 C:\temp\Sistema-de-Gestao\SistemaDeGestão\obj\Debug\net8.0\SistemaD.82700C82.Up2Date
 C:\temp\Sistema-de-Gestao\SistemaDeGestão\obj\Debug\net8.0\SistemaDeGestão.genruntimeconfig.cache
 C:\temp\Sistema-de-Gestao\SistemaDeGestão\obj\Debug\net8.0\ref\SistemaDeGestão.dll
+C:\temp\Sistema-de-Gestao\SistemaDeGestão\bin\Debug\net8.0\package-lock.json
+C:\temp\Sistema-de-Gestao\SistemaDeGestão\bin\Debug\net8.0\package.json

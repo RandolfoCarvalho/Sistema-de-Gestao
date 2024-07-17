@@ -2,6 +2,8 @@
 using SistemaDeGestão.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using SistemaDeGestão.Models.ViewModel;
 
 namespace SistemaDeGestão.Services
 {
@@ -15,6 +17,18 @@ namespace SistemaDeGestão.Services
         public async Task<List<Categoria>> ListarCategorias()
         {
             return await _context.Categorias.Include(p => p.Produtos).ToListAsync();
+        }
+        public ProdutoViewModel GetCategorias()
+        {
+            var model = new ProdutoViewModel
+            {
+                Categorias = _context.Categorias.Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),  // O valor será o nome da categoria
+                    Text = c.Nome    // O texto exibido será o nome da categoria
+                }).ToList()
+            };
+            return model;
         }
         public async void AdicionarCategoria(Categoria categoria)
         {
