@@ -2,7 +2,6 @@
 @inject CategoriaService categoriaService
 @model List<SistemaDeGestão.Models.Produto>
 @{
-    // Agrupando os produtos por CategoriaId
     var produtosAgrupadosPorCategoriaId = Model.GroupBy(p => p.CategoriaId);
 }
 
@@ -14,11 +13,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Shop Homepage - Start Bootstrap Template</title>
-    <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <style>
         .produto-item {
@@ -26,7 +22,7 @@
             background-color: #f9f9f9;
             padding: 10px;
             margin: 5px;
-            cursor: move; /* Cursor que indica que o elemento pode ser arrastado */
+            cursor: move;
             display: inline-block;
             width: 100px;
             height: 100px;
@@ -37,6 +33,31 @@
             padding: 10px;
             min-height: 200px;
             margin: 10px;
+        }
+
+        .placeholder-image {
+            background-color: #f0f0f0;
+            height: 180px;
+            border: 1px solid #ddd;
+            width: 100%;
+        }
+
+        #grid-snap {
+            width: 100%;
+            border-radius: 0.2px;
+            padding: 2%;
+            margin: 1rem 0 0 1rem;
+            background-color: #29e;
+            color: #fff;
+            font-size: 1.2em;
+            touch-action: none;
+        }
+
+        /* Nova regra CSS para desativar a ação de toque padrão */
+        .dragging-container,
+        .dragging-container * {
+            -ms-touch-action: none;
+            touch-action: none;
         }
     </style>
 </head>
@@ -53,43 +74,38 @@
     </header>
     <!-- Section-->
     <section class="py-5">
-        <div class="container px-4 px-lg-5 mt-5">
-            <!-- Renderização de produtos com Razor -->
+        <div class="container px-4 px-lg-5 mt-5 dragging-container">
             @foreach (var grupo in produtosAgrupadosPorCategoriaId)
             {
                 var nomeCategoria = categoriaService.ObterNomeCategoriaPorId(grupo.Key);
 
                 <h2>@nomeCategoria</h2>
-                <div id ="dropzone" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     @foreach (var produto in grupo)
                     {
-                        <div data-id="@produto.Id"  class=" produto-item resize-drag col mb-5 .resize-drag">
+                        <div data-id="@produto.Id" id="produto-@produto.Id" class="produto-item resize-drag col mb-5">
                             <div class="card h-100">
                                 <div>
                                     <a href="@Url.Action("Detalhes", "Produto", new { id = produto.Id })">
                                         <img src="URL_DA_IMAGEM" alt="Imagem do Produto" class="placeholder-image" />
                                     </a>
                                 </div>
-
-                                <div class="card-body p-4">
-                                    <div class="text-center">
-                                        <h5 class="fw-bolder">@produto.Nome</h5>
-                                        $@produto.Preco.ToString("0.00")
-                                    </div>
-                                </div>
-
-                                <div class="card-footer p-7 pt-0 border-top-0 bg-transparent">
+                                <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div>
-                                            <!-- Botão de Excluir -->
                                             <form asp-action="Delete" asp-route-id="@produto.Id" method="post">
                                                 <button type="submit" class="btn btn-danger btn-sm">Excluir</button>
                                             </form>
                                         </div>
                                         <div>
-                                            <!-- Botão de Editar -->
                                             <a href="@Url.Action("Put", "Produto", new { id = produto.Id })" class="btn btn-primary btn-sm" style="margin-left: 5px;">Editar</a>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-2">
+                                    <div class="text-center">
+                                        <h5 class="fw-bolder">@produto.Nome</h5>
+                                        $@produto.Preco.ToString("0.00")
                                     </div>
                                 </div>
                             </div>
@@ -99,10 +115,6 @@
             }
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="py-5 bg-dark">
-        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-    </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
@@ -111,104 +123,58 @@
     <div id="root"></div>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <!-- jQuery UI -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
-</body>
-
-</html>
-@section Scripts {
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Carregar posições salvas
-            loadPositions();
-        });
+            const elementos = document.querySelectorAll('.resize-drag');
 
-        var x = 0;
-        var y = 0;
-
-        interact('.resize-drag')
-            .draggable({
-                modifiers: [
-                    interact.modifiers.snap({
-                        targets: [
-                            interact.snappers.grid({ x: 5, y: 5 })
+            elementos.forEach(function (element) {
+                interact(element)
+                    .draggable({
+                        inertia: true,
+                        modifiers: [
+                            interact.modifiers.restrict({
+                                restriction: element.parentNode,
+                                elementRect: { top: 0, left: 0, bottom: 1, right: 1 },
+                                endOnly: true
+                            })
                         ],
-                        range: Infinity,
-                        relativePoints: [{ x: 0, y: 0 }]
-                    }),
-                    interact.modifiers.restrict({
-                        restriction: 'parent',
-                        elementRect: { top: 0, left: 0, bottom: 1, right: 1 },
-                        endOnly: true
+                        listeners: {
+                            move(event) {
+                                let { x, y } = element.dataset;
+                                x = parseFloat(x || 0) + event.dx;
+                                y = parseFloat(y || 0) + event.dy;
+
+                                element.style.transform = `translate(${x}px, ${y}px)`;
+                                element.dataset.x = x;
+                                element.dataset.y = y;
+                            }
+                        }
                     })
-                ],
-                inertia: true
-            })
-            .on('dragmove', function (event) {
-                var target = event.target;
-                x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
-                y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
-
-                target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
-                target.setAttribute('data-x', x);
-                target.setAttribute('data-y', y);
-
-                // Salvar posição
-                savePosition(target);
+                    .resizable({
+                        edges: { left: true, right: true, bottom: true, top: true },
+                        inertia: true,
+                        modifiers: [
+                            interact.modifiers.restrictEdges({
+                                outer: 'parent'
+                            }),
+                            interact.modifiers.restrictSize({
+                                min: { width: 50, height: 50 }
+                            })
+                        ],
+                        listeners: {
+                            move(event) {
+                                const { x, y } = element.dataset;
+                                element.style.width = `${event.rect.width}px`;
+                                element.style.height = `${event.rect.height}px`;
+                                element.style.transform = `translate(${x}px, ${y}px)`;
+                            }
+                        }
+                    });
             });
-
-        function savePosition(element) {
-            var id = element.getAttribute('data-id');
-            var positions = JSON.parse(localStorage.getItem('positions')) || {};
-            positions[id] = {
-                x: element.getAttribute('data-x'),
-                y: element.getAttribute('data-y'),
-                width: element.style.width,
-                height: element.style.height
-            };
-            localStorage.setItem('positions', JSON.stringify(positions));
-
-            // Adicione código para salvar a posição no servidor aqui, se necessário
-            // fetch('/savePosition', { method: 'POST', body: JSON.stringify({ id: id, x: x, y: y, width: width, height: height }) });
-        }
-
-        function loadPositions() {
-            var positions = JSON.parse(localStorage.getItem('positions')) || {};
-            document.querySelectorAll('.resize-drag').forEach(function (element) {
-                var id = element.getAttribute('data-id');
-                if (positions[id]) {
-                    var pos = positions[id];
-                    element.style.transform = 'translate(' + pos.x + 'px, ' + pos.y + 'px)';
-                    element.style.width = pos.width;
-                    element.style.height = pos.height;
-                    element.setAttribute('data-x', pos.x);
-                    element.setAttribute('data-y', pos.y);
-                }
-            });
-
-            // Adicione código para carregar a posição do servidor aqui, se necessário
-            // fetch('/getPositions')
-            //     .then(response => response.json())
-            //     .then(data => {
-            //         data.forEach(pos => {
-            //             var element = document.querySelector('[data-id="' + pos.id + '"]');
-            //             element.style.transform = 'translate(' + pos.x + 'px, ' + pos.y + 'px)';
-            //             element.style.width = pos.width;
-            //             element.style.height = pos.height;
-            //             element.setAttribute('data-x', pos.x);
-            //             element.setAttribute('data-y', pos.y);
-            //         });
-            //     });
-        }
-
+        });
     </script>
-}
-<style>
-    .placeholder-image {
-        background-color: #f0f0f0; /* Cor de fundo cinza claro */
-        height: 180px; /* Altura da área de imagem */
-        border: 1px solid #ddd; /* Borda fina cinza */
-    }
-</style>
+</body>
+</html>
