@@ -25,21 +25,20 @@ namespace SistemaDeGestão.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("ItemPedidoId")
+                    b.Property<int?>("ItemPedidoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<decimal>("PrecoAdicional")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<double>("PrecoAdicional")
+                        .HasColumnType("double");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ItemPedidoId");
 
-                    b.ToTable("Adicional");
+                    b.ToTable("Adicionais");
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.Categoria", b =>
@@ -138,6 +137,9 @@ namespace SistemaDeGestão.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int?>("AdicionalId")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoriaId")
                         .HasColumnType("int");
 
@@ -193,9 +195,7 @@ namespace SistemaDeGestão.Migrations
                 {
                     b.HasOne("SistemaDeGestão.Models.ItemPedido", null)
                         .WithMany("Adicionais")
-                        .HasForeignKey("ItemPedidoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ItemPedidoId");
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.ItemPedido", b =>

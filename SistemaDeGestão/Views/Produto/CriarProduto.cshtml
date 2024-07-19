@@ -22,6 +22,9 @@
             <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#modalNovaCategoria">
                 Criar Categoria
             </button>
+            <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#modalCategorias">
+                Gerenciar Categorias
+            </button>
         </div>
         <div id="createCategoryFields" style="display:none;">
             <div class="form-group">
@@ -60,9 +63,73 @@
             <label asp-for="QuantidadeEstoque">Quantidade em Estoque:</label>
             <input asp-for="QuantidadeEstoque" class="form-control" />
             <span asp-validation-for="QuantidadeEstoque" class="text-danger"></span>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAdicional">
+                 +Adicional
+            </button>
         </div>
         <button type="submit" class="btn btn-primary">Salvar Produto</button>
+
     </form>
+    <!-- Modal Adicional -->
+    <div class="modal fade" id="modalAdicional" tabindex="-1" role="dialog" aria-labelledby="modalAdicionalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalAdicionalLabel">Adicionar Novo Adicional</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="formAdicional">
+                        <div class="form-group">
+                            <label for="adicionalNome">Nome do Adicional:</label>
+                            <input type="text" class="form-control" id="adicionalNome" name="adicionalNome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="adicionalPreco">Preço do Adicional:</label>
+                            <input type="number" class="form-control" id="adicionalPreco" name="adicionalPreco" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="adicionarAdicionalBtn">Adicionar Adicional</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal -->
+<div class="modal fade" id="modalCategorias" tabindex="-1" role="dialog" aria-labelledby="modalCategoriasLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalCategoriasLabel">Gerenciar Categorias</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <ul id="categoria-list" class="list-group mt-3">
+                        @foreach (var categoria in Model.Categorias)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center" data-id="@categoria.Value">
+                                @categoria.Text
+                                <div>
+                                    <button type="button" class="btn btn-sm btn-warning" onclick="editarCategoria('@categoria.Value')">Editar</button>
+                                    <button type="button" class="btn btn-sm btn-danger" onclick="deletarCategoria('@categoria.Value')">Deletar</button>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Modal -->
 <div class="modal fade" id="modalNovaCategoria" tabindex="-1" role="dialog" aria-labelledby="modalNovaCategoriaLabel" aria-hidden="true">
@@ -103,6 +170,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/i18n/defaults-pt_BR.min.js"></script> <!-- opcional: para ajustar o texto do seletor -->
 <!-- Sweet Alert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 @section Scripts {
     <!-- Select Picker -->
     <script>
@@ -110,6 +178,7 @@
             $('.selectpicker').selectpicker();
         });
 
+        //Criar categoria
         // Evento ao clicar no botão de salvar categoria
         document.getElementById('salvarCategoriaBtn').addEventListener('click', function () {
             // Aqui você pode colocar o código para enviar os dados do formulário via AJAX
@@ -163,6 +232,9 @@
                                     option.textContent = categoria.nome;
                                     selectCategoria.appendChild(option);
                                 });
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 1500);
 
                                 // Atualizar o SelectPicker
                                 $('.selectpicker').selectpicker('refresh');
@@ -184,5 +256,92 @@
                 alert('Por favor, preencha todos os campos.');
             }
         });
+        //Gerenciar Categoria
+            function editarCategoria(categoriaId) {
+                // Lógica para editar a categoria com o ID fornecido
+                alert('Editar categoria: ' + categoriaId);
+                // Aqui você pode abrir um modal de edição ou redirecionar para uma página de edição
+            }
+        function deletarCategoria(categoriaId) {
+            if (confirm('Tem certeza de que deseja deletar esta categoria?')) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "Categoria")',
+                    type: 'POST',
+                    data: { id: categoriaId },
+                    success: function (result) {
+                        if (result.success) {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Categoria deletada com sucesso!',
+                                showConfirmButton: false,
+                                timer: 1500,
+                            });
+                            setTimeout(function () {
+                                location.reload();
+                            }, 1500);
+                            // Remover a categoria da lista usando data-id
+                            $('#categoria-list').find('li[data-id="' + categoriaId + '"]').remove();
+                        } else {
+                            alert('Erro ao deletar a categoria.');
+                        }
+                    },
+                    error: function () {
+                        alert('Erro na comunicação com o servidor.');
+                    }
+                });
+            }
+        }
+            document.getElementById('adicionarAdicionalBtn').addEventListener('click', function () {
+                var adicionalNome = document.getElementById('adicionalNome').value;
+                var adicionalPreco = document.getElementById('adicionalPreco').value;
+
+                if (adicionalNome && adicionalPreco) {
+                    $.ajax({
+                        url: '@Url.Action("CriarAdicional", "Adicional")',
+                        type: 'POST',
+                        data: {
+                            Nome: adicionalNome,
+                            PrecoAdicional: adicionalPreco
+                        },
+                        success: function (result) {
+                            if (result.success) {
+                                // Limpar formulário
+                                $('#formAdicional')[0].reset();
+
+                                // Fechar modal
+                                $('#modalAdicional').modal('hide');
+
+                                // Mostrar confirmação
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Adicional adicionado com sucesso!',
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                });
+
+                            } else {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: result.message || 'Erro ao adicionar adicional.',
+                                    showConfirmButton: true
+                                });
+                            }
+                        },
+                        error: function () {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Erro na comunicação com o servidor.',
+                                showConfirmButton: true
+                            });
+                        }
+                    });
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Por favor, preencha todos os campos!',
+                        showConfirmButton: true
+                    });
+                }
+            });
     </script>
 }

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SistemaDeGestão.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstMigration : Migration
+    public partial class firstMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -29,22 +29,6 @@ namespace SistemaDeGestão.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Categorias", x => x.Id);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
-                name: "Estoques",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Quantidade = table.Column<int>(type: "int", nullable: false),
-                    Localizacao = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Estoques", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -109,14 +93,16 @@ namespace SistemaDeGestão.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    CategoriaId = table.Column<int>(type: "int", nullable: false),
                     Nome = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Descricao = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Preco = table.Column<double>(type: "double", nullable: false),
+                    ProductImage = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     QuantidadeEstoque = table.Column<int>(type: "int", nullable: false),
-                    CategoriaId = table.Column<int>(type: "int", nullable: false),
-                    EstoqueId = table.Column<int>(type: "int", nullable: false)
+                    AdicionalId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -125,12 +111,6 @@ namespace SistemaDeGestão.Migrations
                         name: "FK_Produtos_Categorias_CategoriaId",
                         column: x => x.CategoriaId,
                         principalTable: "Categorias",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Produtos_Estoques_EstoqueId",
-                        column: x => x.EstoqueId,
-                        principalTable: "Estoques",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 })
@@ -142,10 +122,10 @@ namespace SistemaDeGestão.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    PedidoId = table.Column<int>(type: "int", nullable: false),
                     ProdutoId = table.Column<int>(type: "int", nullable: false),
+                    PedidoId = table.Column<int>(type: "int", nullable: true),
                     Quantidade = table.Column<int>(type: "int", nullable: false),
-                    PrecoUnitario = table.Column<decimal>(type: "decimal(65,30)", nullable: false)
+                    PrecoUnitario = table.Column<double>(type: "double", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -160,21 +140,21 @@ namespace SistemaDeGestão.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Adicional",
+                name: "Adicionais",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nome = table.Column<string>(type: "longtext", nullable: false)
+                    Nome = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    PrecoAdicional = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
+                    PrecoAdicional = table.Column<double>(type: "double", nullable: false),
                     ItemPedidoId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Adicional", x => x.Id);
+                    table.PrimaryKey("PK_Adicionais", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Adicional_ItensPedido_ItemPedidoId",
+                        name: "FK_Adicionais_ItensPedido_ItemPedidoId",
                         column: x => x.ItemPedidoId,
                         principalTable: "ItensPedido",
                         principalColumn: "Id");
@@ -182,8 +162,8 @@ namespace SistemaDeGestão.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Adicional_ItemPedidoId",
-                table: "Adicional",
+                name: "IX_Adicionais_ItemPedidoId",
+                table: "Adicionais",
                 column: "ItemPedidoId");
 
             migrationBuilder.CreateIndex(
@@ -195,18 +175,13 @@ namespace SistemaDeGestão.Migrations
                 name: "IX_Produtos_CategoriaId",
                 table: "Produtos",
                 column: "CategoriaId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Produtos_EstoqueId",
-                table: "Produtos",
-                column: "EstoqueId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Adicional");
+                name: "Adicionais");
 
             migrationBuilder.DropTable(
                 name: "Movimentacoes");
@@ -222,9 +197,6 @@ namespace SistemaDeGestão.Migrations
 
             migrationBuilder.DropTable(
                 name: "Categorias");
-
-            migrationBuilder.DropTable(
-                name: "Estoques");
 
             migrationBuilder.DropTable(
                 name: "Pedidos");

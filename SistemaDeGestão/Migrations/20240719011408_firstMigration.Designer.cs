@@ -11,8 +11,8 @@ using SistemaDeGestão.Data;
 namespace SistemaDeGestão.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20240714025216_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20240719011408_firstMigration")]
+    partial class firstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,17 +32,16 @@ namespace SistemaDeGestão.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<decimal>("PrecoAdicional")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<double>("PrecoAdicional")
+                        .HasColumnType("double");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ItemPedidoId");
 
-                    b.ToTable("Adicional");
+                    b.ToTable("Adicionais");
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.Categoria", b =>
@@ -64,35 +63,17 @@ namespace SistemaDeGestão.Migrations
                     b.ToTable("Categorias");
                 });
 
-            modelBuilder.Entity("SistemaDeGestão.Models.Estoque", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Localizacao")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<int>("Quantidade")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Estoques");
-                });
-
             modelBuilder.Entity("SistemaDeGestão.Models.ItemPedido", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("PedidoId")
+                    b.Property<int?>("PedidoId")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("PrecoUnitario")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<double>("PrecoUnitario")
+                        .HasColumnType("double");
 
                     b.Property<int>("ProdutoId")
                         .HasColumnType("int");
@@ -159,15 +140,15 @@ namespace SistemaDeGestão.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int?>("AdicionalId")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoriaId")
                         .HasColumnType("int");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("longtext");
-
-                    b.Property<int>("EstoqueId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -176,14 +157,16 @@ namespace SistemaDeGestão.Migrations
                     b.Property<double>("Preco")
                         .HasColumnType("double");
 
+                    b.Property<string>("ProductImage")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<int>("QuantidadeEstoque")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CategoriaId");
-
-                    b.HasIndex("EstoqueId");
 
                     b.ToTable("Produtos");
                 });
@@ -223,8 +206,7 @@ namespace SistemaDeGestão.Migrations
                     b.HasOne("SistemaDeGestão.Models.Pedido", null)
                         .WithMany("Itens")
                         .HasForeignKey("PedidoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.Produto", b =>
@@ -234,20 +216,9 @@ namespace SistemaDeGestão.Migrations
                         .HasForeignKey("CategoriaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("SistemaDeGestão.Models.Estoque", null)
-                        .WithMany("Produtos")
-                        .HasForeignKey("EstoqueId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("SistemaDeGestão.Models.Categoria", b =>
-                {
-                    b.Navigation("Produtos");
-                });
-
-            modelBuilder.Entity("SistemaDeGestão.Models.Estoque", b =>
                 {
                     b.Navigation("Produtos");
                 });

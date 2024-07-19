@@ -11,6 +11,6 @@
         {
             get { return Quantidade * PrecoUnitario; }
         }
-        public List<Adicional> Adicionais { get; set; }
+        public List<Adicional>? Adicionais { get; set; }
     }
 }

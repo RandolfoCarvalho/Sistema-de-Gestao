@@ -37,7 +37,7 @@ namespace SistemaDeGestão.Controllers
         public IActionResult Delete(int id)
         {
             _categoriaService.DeletarCategoria(id);
-            return Ok("Categoria deletada com sucesso");
+            return Json(new { success = true });
         }
         public IActionResult PostNovaCategoria([FromBody] Categoria categoria)
         {

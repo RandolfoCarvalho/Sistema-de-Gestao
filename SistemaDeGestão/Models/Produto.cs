@@ -9,5 +9,6 @@
         public double Preco { get; set; }
         public string ProductImage { get; set; }
         public int QuantidadeEstoque { get; set; }
+        public int? AdicionalId { get; set; }
     }
 }
