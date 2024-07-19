@@ -14,6 +14,7 @@
 </head>
 <div class="form-container">
     <form asp-action="CriarProduto" method="post" class="centered-form" class="mobile-form-width">
+        <!--Categorias-->
         <div class="form-group">
             <label asp-for="CategoriaId">Categoria:</label>
             <select id="CategoriaId" asp-for="CategoriaId" asp-items="Model.Categorias" class="form-control selectpicker" id="selectpicker" data-live-search="true" title="Selecione uma categoria..." data-size="5">
@@ -63,7 +64,7 @@
             <label asp-for="QuantidadeEstoque">Quantidade em Estoque:</label>
             <input asp-for="QuantidadeEstoque" class="form-control" />
             <span asp-validation-for="QuantidadeEstoque" class="text-danger"></span>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAdicional">
+            <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#modalAdicional">
                  +Adicional
             </button>
         </div>
@@ -99,7 +100,7 @@
             </div>
         </div>
     </div>
-<!-- Modal -->
+<!-- Modal gerenciar categorias-->
 <div class="modal fade" id="modalCategorias" tabindex="-1" role="dialog" aria-labelledby="modalCategoriasLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -291,6 +292,7 @@
                 });
             }
         }
+        //adicionar adiciional
             document.getElementById('adicionarAdicionalBtn').addEventListener('click', function () {
                 var adicionalNome = document.getElementById('adicionalNome').value;
                 var adicionalPreco = document.getElementById('adicionalPreco').value;
@@ -305,6 +307,9 @@
                         },
                         success: function (result) {
                             if (result.success) {
+                                // Adicionar o item de adicional à lista
+                                $('#adicionalList').append(adicionalItem);
+
                                 // Limpar formulário
                                 $('#formAdicional')[0].reset();
 
