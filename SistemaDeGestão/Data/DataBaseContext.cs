@@ -17,6 +17,7 @@ namespace SistemaDeGestão.Data
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<ItemPedido> ItensPedido { get; set; }
         public DbSet<Adicional> Adicionais { get; set; }
+        public DbSet<GrupoAdicional> GrupoAdicionais { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Pedido>()
@@ -25,6 +26,11 @@ namespace SistemaDeGestão.Data
                 .HasForeignKey(ip => ip.PedidoId)
                 .OnDelete(DeleteBehavior.Cascade);
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<GrupoAdicional>()
+            .HasMany(g => g.Adicionais)
+            .WithOne(a => a.grupoAdicional)
+            .HasForeignKey(a => a.GrupoAdicionalId);
         }
 
 

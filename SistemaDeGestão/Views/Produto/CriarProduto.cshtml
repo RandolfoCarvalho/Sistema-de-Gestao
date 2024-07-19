@@ -5,13 +5,14 @@
 
 <h2 class="centered-text">@ViewData["Title"]</h2>
 <head>
-    <link rel="stylesheet" href="~/css//produto/criarProduto.css" />
+    <link rel="stylesheet" href="~/css/produto/criarProduto.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Modal Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
 </head>
+<body>
 <div class="form-container">
     <form asp-action="CriarProduto" method="post" class="centered-form" class="mobile-form-width">
         <!--Categorias-->
@@ -64,6 +65,9 @@
             <label asp-for="QuantidadeEstoque">Quantidade em Estoque:</label>
             <input asp-for="QuantidadeEstoque" class="form-control" />
             <span asp-validation-for="QuantidadeEstoque" class="text-danger"></span>
+            <button type="button" id="abrirModalGrupoAdicionalBtn" class="btn btn-primary mt-2" data-toggle="modal">
+               Criar grupo de adicional
+            </button>
             <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#modalAdicional">
                  +Adicional
             </button>
@@ -71,6 +75,26 @@
         <button type="submit" class="btn btn-primary">Salvar Produto</button>
 
     </form>
+    <!-- Modal para criar grupo de adicionais -->
+    <div id="modalGrupoAdicional" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Criar Grupo de Adicionais</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formGrupoAdicional">
+                        <div class="mb-3">
+                            <label for="grupoNome" class="form-label">Nome do Grupo</label>
+                            <input type="text" id="grupoNome" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Criar Grupo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Modal Adicional -->
     <div class="modal fade" id="modalAdicional" tabindex="-1" role="dialog" aria-labelledby="modalAdicionalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -172,181 +196,8 @@
 <!-- Sweet Alert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-@section Scripts {
-    <!-- Select Picker -->
-    <script>
-        $(document).ready(function () {
-            $('.selectpicker').selectpicker();
-        });
-
-        //Criar categoria
-        // Evento ao clicar no botão de salvar categoria
-        document.getElementById('salvarCategoriaBtn').addEventListener('click', function () {
-            // Aqui você pode colocar o código para enviar os dados do formulário via AJAX
-            var newCategoryName = document.getElementById('newCategoryName').value;
-            var newCategoryDescription = document.getElementById('newCategoryDescription').value;
-
-            if (newCategoryName && newCategoryDescription) {
-                // Exemplo de requisição AJAX usando fetch
-                fetch('/Categoria/PostNovaCategoria', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ Nome: newCategoryName, Descricao: newCategoryDescription })
-                })
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Erro ao adicionar categoria: ' + response.statusText);
-                        }
-                        return response.json();
-                    })
-                    .then(data => {
-                        // Exemplo de uso do SweetAlert para exibir uma mensagem de sucesso
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Categoria adicionada com sucesso!',
-                            showConfirmButton: false,
-                            timer: 1500,
-                        });
-
-                        // Fechar o modal após adicionar a categoria
-                        $('#modalNovaCategoria').modal('hide');
-
-                        // Atualizar o dropdown de categorias usando SelectPicker
-                        fetch('/Categoria/FindAll')
-                            .then(response => {
-                                if (!response.ok) {
-                                    throw new Error('Erro ao obter categorias: ' + response.statusText);
-                                }
-                                return response.json();
-                            })
-                            .then(data => {
-                                // Limpar o dropdown atual
-                                var selectCategoria = document.getElementById('CategoriaId');
-                                selectCategoria.innerHTML = '';
-
-                                // Adicionar as novas opções ao dropdown
-                                data.forEach(categoria => {
-                                    var option = document.createElement('option');
-                                    option.value = categoria.id;
-                                    option.textContent = categoria.nome;
-                                    selectCategoria.appendChild(option);
-                                });
-                                setTimeout(function () {
-                                    location.reload();
-                                }, 1500);
-
-                                // Atualizar o SelectPicker
-                                $('.selectpicker').selectpicker('refresh');
-                            })
-                            .catch(error => {
-                                console.error('Erro ao obter categorias:', error);
-                            });
-                    })
-                    .catch(error => {
-                        console.error('Erro ao adicionar categoria:', error);
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Erro ao adicionar categoria',
-                            text: 'Por favor, busque suporte do responsável especializado.'
-                        });
-                    });
-
-            } else {
-                alert('Por favor, preencha todos os campos.');
-            }
-        });
-        //Gerenciar Categoria
-            function editarCategoria(categoriaId) {
-                // Lógica para editar a categoria com o ID fornecido
-                alert('Editar categoria: ' + categoriaId);
-                // Aqui você pode abrir um modal de edição ou redirecionar para uma página de edição
-            }
-        function deletarCategoria(categoriaId) {
-            if (confirm('Tem certeza de que deseja deletar esta categoria?')) {
-                $.ajax({
-                    url: '@Url.Action("Delete", "Categoria")',
-                    type: 'POST',
-                    data: { id: categoriaId },
-                    success: function (result) {
-                        if (result.success) {
-                            Swal.fire({
-                                icon: 'success',
-                                title: 'Categoria deletada com sucesso!',
-                                showConfirmButton: false,
-                                timer: 1500,
-                            });
-                            setTimeout(function () {
-                                location.reload();
-                            }, 1500);
-                            // Remover a categoria da lista usando data-id
-                            $('#categoria-list').find('li[data-id="' + categoriaId + '"]').remove();
-                        } else {
-                            alert('Erro ao deletar a categoria.');
-                        }
-                    },
-                    error: function () {
-                        alert('Erro na comunicação com o servidor.');
-                    }
-                });
-            }
-        }
-        //adicionar adiciional
-            document.getElementById('adicionarAdicionalBtn').addEventListener('click', function () {
-                var adicionalNome = document.getElementById('adicionalNome').value;
-                var adicionalPreco = document.getElementById('adicionalPreco').value;
-
-                if (adicionalNome && adicionalPreco) {
-                    $.ajax({
-                        url: '@Url.Action("CriarAdicional", "Adicional")',
-                        type: 'POST',
-                        data: {
-                            Nome: adicionalNome,
-                            PrecoAdicional: adicionalPreco
-                        },
-                        success: function (result) {
-                            if (result.success) {
-                                // Adicionar o item de adicional à lista
-                                $('#adicionalList').append(adicionalItem);
-
-                                // Limpar formulário
-                                $('#formAdicional')[0].reset();
-
-                                // Fechar modal
-                                $('#modalAdicional').modal('hide');
-
-                                // Mostrar confirmação
-                                Swal.fire({
-                                    icon: 'success',
-                                    title: 'Adicional adicionado com sucesso!',
-                                    showConfirmButton: false,
-                                    timer: 1500
-                                });
-
-                            } else {
-                                Swal.fire({
-                                    icon: 'error',
-                                    title: result.message || 'Erro ao adicionar adicional.',
-                                    showConfirmButton: true
-                                });
-                            }
-                        },
-                        error: function () {
-                            Swal.fire({
-                                icon: 'error',
-                                title: 'Erro na comunicação com o servidor.',
-                                showConfirmButton: true
-                            });
-                        }
-                    });
-                } else {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Por favor, preencha todos os campos!',
-                        showConfirmButton: true
-                    });
-                }
-            });
-    </script>
-}
+<script>
+    var deleteCategoriaUrl = '@Url.Action("Delete", "Categoria")';
+</script>
+<script src="~/js/produto/criarProduto.js"></script>
+</body>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tOg/jcp2DlNVfmtlwux1SFhymO+ornvoVijfy00ypgE=",
+  "Hash": "B7KYFI1p6nBdCFtuQrzSyKTcrY457UoHtZjf/3z70l8=",
   "Source": "SistemaDeGestão",
   "BasePath": "_content/SistemaDeGestão",
   "Mode": "Default",
@@ -169,12 +169,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\criarProduto.js",
+      "Identity": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\Produto\\criarProduto.js",
       "SourceId": "SistemaDeGestão",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\",
       "BasePath": "_content/SistemaDeGestão",
-      "RelativePath": "js/criarProduto.js",
+      "RelativePath": "js/Produto/criarProduto.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +185,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\criarProduto.js"
+      "OriginalItemSpec": "wwwroot\\js\\Produto\\criarProduto.js"
     },
     {
       "Identity": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\scripts.js",

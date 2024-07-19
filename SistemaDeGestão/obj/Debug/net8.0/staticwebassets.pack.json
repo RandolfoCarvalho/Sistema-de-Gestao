@@ -205,8 +205,8 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\criarProduto.js",
-      "PackagePath": "staticwebassets\\js\\criarProduto.js"
+      "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\Produto\\criarProduto.js",
+      "PackagePath": "staticwebassets\\js\\Produto\\criarProduto.js"
     },
     {
       "Id": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGestão\\wwwroot\\js\\scripts.js",
