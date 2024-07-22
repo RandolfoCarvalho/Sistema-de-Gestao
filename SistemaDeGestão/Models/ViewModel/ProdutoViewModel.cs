@@ -24,5 +24,10 @@ namespace SistemaDeGestão.Models.ViewModel
         //campos para categoria
         public string? NewCategoryName { get; set; }
         public string? NewCategoryDescription { get; set; }
+        // Campos para adicionais
+        public IEnumerable<SelectListItem>? GruposDeAdicionais { get; set; }
+        public int GrupoAdicionalId { get; set; }
+        public IEnumerable<Adicional>? Adicionais { get; set; }
+        public string? NovoGrupoAdicionalName { get; set; }
     }
 }

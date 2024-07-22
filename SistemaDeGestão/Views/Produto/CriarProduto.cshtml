@@ -65,65 +65,90 @@
             <label asp-for="QuantidadeEstoque">Quantidade em Estoque:</label>
             <input asp-for="QuantidadeEstoque" class="form-control" />
             <span asp-validation-for="QuantidadeEstoque" class="text-danger"></span>
-            <button type="button" id="abrirModalGrupoAdicionalBtn" class="btn btn-primary mt-2" data-toggle="modal">
-               Criar grupo de adicional
-            </button>
-            <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#modalAdicional">
-                 +Adicional
-            </button>
-        </div>
-        <button type="submit" class="btn btn-primary">Salvar Produto</button>
-
-    </form>
-    <!-- Modal para criar grupo de adicionais -->
-    <div id="modalGrupoAdicional" class="modal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Criar Grupo de Adicionais</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="formGrupoAdicional">
-                        <div class="mb-3">
-                            <label for="grupoNome" class="form-label">Nome do Grupo</label>
-                            <input type="text" id="grupoNome" class="form-control" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Criar Grupo</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Adicional -->
-    <div class="modal fade" id="modalAdicional" tabindex="-1" role="dialog" aria-labelledby="modalAdicionalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalAdicionalLabel">Adicionar Novo Adicional</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
+            <!--Adicionais-->
+                <form asp-action="Create">
+                    <!-- Campos existentes -->
+                    <!-- Grupos de Adicionais -->
+                    <div class="form-group">
+                        <label for="GrupoAdicionalId">Grupo de Adicionais:</label>
+                        <select id="GrupoAdicionalId" name="GrupoAdicionalId" class="form-control selectpicker" data-live-search="true" title="Selecione um grupo de adicionais..." data-size="5">
+                            @foreach (var grupo in Model.GruposDeAdicionais)
+                            {
+                                <option value="@grupo.Value">@grupo.Text</option>
+                            }
+                        </select>
+                        <span class="text-danger" asp-validation-for="GrupoAdicionalId"></span>
+                        
+                    </div>
+                    <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#modalAdicional">
+                        +Adicional
                     </button>
-                </div>
-                <div class="modal-body">
-                    <form id="formAdicional">
-                        <div class="form-group">
-                            <label for="adicionalNome">Nome do Adicional:</label>
-                            <input type="text" class="form-control" id="adicionalNome" name="adicionalNome" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="adicionalPreco">Preço do Adicional:</label>
-                            <input type="number" class="form-control" id="adicionalPreco" name="adicionalPreco" required>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary" id="adicionarAdicionalBtn">Adicionar Adicional</button>
+                    <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#modalGerenciarGruposAdicionais">
+                        Gerenciar Grupos de Adicionais
+                    </button>
+                   
+                </form>
+                <form>
+                    <button type="submit" class="btn btn-primary">Salvar Produto</button>
+                </form>
+        </div>
+    </form>
+    </div>
+        <!-- Modal Adicional -->
+        <div class="modal fade" id="modalAdicional" tabindex="-1" role="dialog" aria-labelledby="modalAdicionalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalAdicionalLabel">Adicionar Novo Adicional</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="formAdicional">
+                            <div class="form-group">
+                                <label for="adicionalNome">Nome do Adicional:</label>
+                                <input type="text" class="form-control" id="adicionalNome" name="adicionalNome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="adicionalPreco">Preço do Adicional:</label>
+                                <input type="number" class="form-control" id="adicionalPreco" name="adicionalPreco" required>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" id="adicionarAdicionalBtn">Adicionar Adicional</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" id="salvarETerminarBtn">Salvar e terminar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- Modal Grupo de Adicionais -->
+        <div class="modal fade" id="modalGrupoAdicional" tabindex="-1" role="dialog" aria-labelledby="modalGrupoAdicionalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalGrupoAdicionalLabel">Nome do Grupo de Adicionais</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="formGrupoAdicional">
+                            <div class="form-group">
+                                <label for="grupoAdicionalNome">Nome do Grupo:</label>
+                                <input type="text" class="form-control" id="grupoAdicionalNome" name="grupoAdicionalNome" required>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" id="salvarGrupoAdicionalBtn">Salvar Grupo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 <!-- Modal gerenciar categorias-->
 <div class="modal fade" id="modalCategorias" tabindex="-1" role="dialog" aria-labelledby="modalCategoriasLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -196,8 +221,12 @@
 <!-- Sweet Alert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        var deleteCategoriaUrl = '@Url.Action("Delete", "Categoria")';
+    </script>
 <script>
-    var deleteCategoriaUrl = '@Url.Action("Delete", "Categoria")';
+    var criarGrupoAdicional = '@Url.Action("CriarGrupoAdicional", "GrupoAdicional")';
 </script>
 <script src="~/js/produto/criarProduto.js"></script>
 </body>

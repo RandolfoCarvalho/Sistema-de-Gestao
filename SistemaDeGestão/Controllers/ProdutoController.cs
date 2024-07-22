@@ -40,6 +40,11 @@ namespace SistemaDeGestão.Controllers
                 {
                     Value = c.Id.ToString(),  // O valor será o nome da categoria
                     Text = c.Nome    // O texto exibido será o nome da categoria
+                }).ToList(),
+                GruposDeAdicionais = _context.GrupoAdicionais.Select(g => new SelectListItem
+                {
+                    Value = g.Id.ToString(),
+                    Text = g.Nome
                 }).ToList()
             };
             return View(model);
@@ -66,6 +71,11 @@ namespace SistemaDeGestão.Controllers
             {
                 Value = c.Id.ToString(),  // O valor será o ID da categoria
                 Text = c.Nome             // O texto exibido será o nome da categoria
+            }).ToList();
+            viewModel.GruposDeAdicionais = _context.GrupoAdicionais.Select(g => new SelectListItem
+            {
+                Value = g.Id.ToString(),
+                Text = g.Nome
             }).ToList();
             return View(viewModel);
         }

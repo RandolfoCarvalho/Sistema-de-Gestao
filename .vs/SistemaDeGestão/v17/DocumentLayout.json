@@ -11,24 +11,44 @@
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\wwwroot\\js\\produto\\criarproduto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\grupoadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\grupoadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\viewmodel\\adicionalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\viewmodel\\adicionalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\grupoadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\grupoadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\grupoadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\grupoadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\adicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\adicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\viewmodel\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\viewmodel\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\viewmodel\\adicionalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\viewmodel\\adicionalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\viewmodel\\grupoadicionalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,28 +59,8 @@
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\adicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\grupoadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\grupoadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\models\\viewmodel\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\models\\viewmodel\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\movimentacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\controllers\\adicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\controllers\\adicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\views\\produto\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -227,7 +223,15 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaDeGest\u00E3o\\my-react-app\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\users\\luztek\\.nuget\\packages\\bootstrap\\5.3.3\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\migrations\\20240719151731_migracaodeteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\migrations\\20240719151731_migracaodeteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Luztek\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|c:\\temp\\sistema-de-gestao\\sistemadegest\u00E3o\\migrations\\20240721001520_migracaodegrupodeadicionais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF3A9C8-5201-4DB4-B83B-5A5B29DCD9C0}|SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj|solutionrelative:sistemadegest\u00E3o\\migrations\\20240721001520_migracaodegrupodeadicionais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -237,47 +241,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240719151731_MigracaoDeTeste.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAqwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:17:31.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GrupoAdicionalController.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:12:31.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdicionalViewModel.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:11:58.042Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -286,10 +251,15 @@
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\CriarProduto.cshtml",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\CriarProduto.cshtml",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\CriarProduto.cshtml",
-              "ViewState": "AQIAAL4AAAAAAAAAAAAAAMoAAAAHAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAF8AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-16T11:36:44.83Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -299,20 +269,57 @@
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\wwwroot\\js\\Produto\\criarProduto.js",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\wwwroot\\js\\Produto\\criarProduto.js",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\wwwroot\\js\\Produto\\criarProduto.js",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAEAAAAAAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAKwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-17T15:33:06.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADgvyAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:28:54.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GrupoAdicionalController.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\GrupoAdicionalController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:12:31.712Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GrupoAdicional.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:09:46.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCsAAAAsAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T12:33:35.243Z",
               "EditorCaption": ""
@@ -320,110 +327,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA6wBMAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GrupoAdicionalViewModel.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:11:43.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GrupoAdicional.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\GrupoAdicional.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:09:46.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAIBJwDkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T03:39:38.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAJAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAowDcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdicionalController.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T00:02:41.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240721001520_MigracaoDeGrupoDeAdicionais.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240721001520_MigracaoDeGrupoDeAdicionais.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240721001520_MigracaoDeGrupoDeAdicionais.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240721001520_MigracaoDeGrupoDeAdicionais.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Migrations\\20240721001520_MigracaoDeGrupoDeAdicionais.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T00:15:20.801Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Adicional.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Adicional.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Adicional.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Adicional.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Adicional.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Data\\DataBaseContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBMAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T02:37:13.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProdutoViewModel.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T11:34:32.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\CategoriaService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAIAwwCAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T23:28:54.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\PedidoController.cs",
@@ -431,8 +382,79 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\PedidoController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T02:55:03.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T02:55:03.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdutoViewModel.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ViewModel\\ProdutoViewModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwB4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:34:32.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdicionalViewModel.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ViewModel\\AdicionalViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:11:58.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20240719151731_MigracaoDeTeste.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Migrations\\20240719151731_MigracaoDeTeste.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:17:31.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GrupoAdicionalViewModel.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ViewModel\\GrupoAdicionalViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:11:43.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAIBZwDkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T03:39:38.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Adicional.cs",
+              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Adicional.cs",
+              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Adicional.cs",
+              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Adicional.cs",
+              "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Adicional.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T02:37:13.786Z"
             },
             {
               "$type": "Document",
@@ -444,8 +466,7 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\MovimentacaoController.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAwwBMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:52:28.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T16:52:28.124Z"
             },
             {
               "$type": "Document",
@@ -457,38 +478,23 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:41:14.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:41:14.312Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "AdicionalController.cs",
-              "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
-              "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
-              "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
-              "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\AdicionalController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T00:02:41.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Detalhes.cshtml",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\Detalhes.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwCQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T14:15:34.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T14:15:34.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\Index.cshtml",
@@ -496,12 +502,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\Index.cshtml",
               "ViewState": "AQIAACYAAAAAAAAAAAAQwGgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T03:29:42.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T03:29:42.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "20240719011408_firstMigration.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719011408_firstMigration.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719011408_firstMigration.cs",
@@ -509,12 +514,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Migrations\\20240719011408_firstMigration.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAiwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T01:14:09.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T01:14:09.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
@@ -522,12 +526,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "20240719010649_FirstMigration.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719010649_FirstMigration.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719010649_FirstMigration.cs",
@@ -538,20 +541,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Program.cs",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Program.cs",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAIBJwCcAAAAVAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAIBZwCcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:39:42.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "20240719010735_FirstMigration.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719010735_FirstMigration.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719010735_FirstMigration.cs",
@@ -562,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "ItemPedidoController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\ItemPedidoController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\ItemPedidoController.cs",
@@ -570,12 +572,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\ItemPedidoController.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwDAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T02:56:55.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T02:56:55.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Categoria.cs",
@@ -583,12 +584,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Categoria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:06:51.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T12:06:51.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "ItemPedido.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ItemPedido.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ItemPedido.cs",
@@ -596,12 +596,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ItemPedido.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T02:38:58.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T02:38:58.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "20240719000452_AddAdicionaisTable.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719000452_AddAdicionaisTable.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719000452_AddAdicionaisTable.cs",
@@ -612,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "20240719003036_MigracaoDeAdicionalItemPedidoIdNull.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719003036_MigracaoDeAdicionalItemPedidoIdNull.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719003036_MigracaoDeAdicionalItemPedidoIdNull.cs",
@@ -623,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "20240719001439_migracaoDeAdicional.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240719001439_migracaoDeAdicional.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240719001439_migracaoDeAdicional.cs",
@@ -634,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "20240718234423_MigracaoDeAdicionalId.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240718234423_MigracaoDeAdicionalId.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240718234423_MigracaoDeAdicionalId.cs",
@@ -645,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "package.json",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\package.json",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\package.json",
@@ -653,12 +652,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\package.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-16T18:48:06.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T18:48:06.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\appsettings.json",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\appsettings.json",
@@ -666,24 +664,22 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T11:39:42.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "SistemaDeGest\u00E3o",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T11:39:42.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "imagem.jpg",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\imagem.jpg",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\imagem.jpg",
@@ -694,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
@@ -702,21 +698,19 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Controllers\\UserController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAowCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T01:29:13.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T01:29:13.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "criarProduto.css",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\wwwroot\\css\\Produto\\criarProduto.css",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\wwwroot\\css\\Produto\\criarProduto.css",
               "ToolTip": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\wwwroot\\css\\Produto\\criarProduto.css",
               "RelativeToolTip": "SistemaDeGest\u00E3o\\wwwroot\\css\\Produto\\criarProduto.css",
-              "ViewState": "AQIAACAAAAAAAAAAAIBZwDIAAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAACBjwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-17T12:21:41.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T12:21:41.328Z"
             },
             {
               "$type": "Document",
@@ -733,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "main.js",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\my-react-app\\build\\static\\js\\main.js",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\my-react-app\\build\\static\\js\\main.js",
@@ -744,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "main.js",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\wwwroot\\static\\js\\main.js",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\wwwroot\\static\\js\\main.js",
@@ -752,12 +746,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\wwwroot\\static\\js\\main.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-16T19:08:21.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T19:08:21.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "App.js",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\my-react-app\\src\\App.js",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\my-react-app\\src\\App.js",
@@ -768,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "App.css",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\my-react-app\\src\\App.css",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\my-react-app\\src\\App.css",
@@ -779,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "ProdutoService.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
@@ -787,12 +780,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\ProdutoService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAIAwwA8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T01:53:15.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T01:53:15.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "SistemaDeGest\u00E3o.csproj",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
@@ -800,12 +792,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\SistemaDeGest\u00E3o.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T11:39:42.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:39:42.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Views\\Produto\\Privacy.cshtml",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Views\\Produto\\Privacy.cshtml",
@@ -813,12 +804,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Views\\Produto\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T03:51:31.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T03:51:31.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "MovimentacaoService.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
@@ -826,12 +816,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\MovimentacaoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:24:26.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T17:24:26.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "ItemPedidoService.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ItemPedidoService.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ItemPedidoService.cs",
@@ -839,12 +828,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Services\\ItemPedidoService.cs",
               "ViewState": "AQIAAFoAAAAAAAAAAAAmwGEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T23:49:19.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T23:49:19.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "ProductCategory.txt",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\ProductCategory.txt",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\ProductCategory.txt",
@@ -852,12 +840,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\ProductCategory.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-07-14T12:29:07.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T12:29:07.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Pedido.cs",
@@ -865,12 +852,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Pedido.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T02:40:30.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T02:40:30.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "Movimentacao.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\Movimentacao.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\Movimentacao.cs",
@@ -878,12 +864,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\Movimentacao.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:50:22.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T16:50:22.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Models\\User.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Models\\User.cs",
@@ -891,12 +876,11 @@
               "RelativeToolTip": "SistemaDeGest\u00E3o\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T02:41:54.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T02:41:54.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "20240714024849_addPedidoEItemPedido.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240714024849_addPedidoEItemPedido.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240714024849_addPedidoEItemPedido.cs",
@@ -907,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "20240619020859_MigracaoDeCorrecaoMovimentacoes.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Migrations\\20240619020859_MigracaoDeCorrecaoMovimentacoes.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Migrations\\20240619020859_MigracaoDeCorrecaoMovimentacoes.cs",
@@ -918,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "ICategoriaService.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Services\\ICategoriaService.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Services\\ICategoriaService.cs",
@@ -929,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Repository\\Repository.cs",
@@ -940,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\temp\\Sistema-de-Gestao\\SistemaDeGest\u00E3o\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "SistemaDeGest\u00E3o\\Repository\\IRepository.cs",
@@ -957,15 +941,15 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
