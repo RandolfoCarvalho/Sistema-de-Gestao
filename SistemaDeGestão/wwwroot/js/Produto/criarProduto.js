@@ -25,8 +25,11 @@ $(document).ready(function () {
 
     // Salvar grupo de adicionais com seus adicionais
     $('#salvarGrupoAdicionalBtn').on('click', function () {
-        var grupoNome = localStorage.getItem('grupoNome');
+        var grupoNome = $('#grupoAdicionalNome').val(); // Captura o valor do campo de entrada
         var adicionais = [];
+
+        console.log('Grupo Nome:', grupoNome); // Deve exibir o valor digitado no campo de entrada
+        console.log('Adicionais:', adicionais);
 
         $('#adicionalList div').each(function () {
             var adicional = $(this).text().split(' - ');
